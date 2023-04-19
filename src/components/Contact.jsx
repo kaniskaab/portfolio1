@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div>
+    <div id="contact">
       <body className="h-screen w-full overflow-hidden flex items-center justify-center bg-[#171717]">
 
 

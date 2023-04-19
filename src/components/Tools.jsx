@@ -116,7 +116,7 @@ export default function Tools() {
 
     ]
   return (
-    <div className='flex flex-col'>
+    <div id="tools" className='flex flex-col'>
         <h1 className="text-white text-3xl mb-10 font-bold py-4 text-center">Tools and Languages that I can work with: </h1>
         <div className='grid grid-cols-4 md:grid-cols-8 gap-2 w-full h-full'>
        {all.map(({ id, title, src, style, style2 }) => (

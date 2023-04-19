@@ -1,4 +1,5 @@
 import React from "react";
+import button from '../images/ham.jpg'
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
@@ -17,7 +18,7 @@ export default function Navbar({ fixed }) {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-             button
+             <img src={button} className="h-5 w-5" alt="button"/>
             </button>
           </div>
           <div
@@ -29,21 +30,28 @@ export default function Navbar({ fixed }) {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
-              <div onClick={() => window.location.replace("/#exp1")}>
               <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   href="#about"
                 >
                 <span className="ml-2 text-xs">About</span>
                 </a>
-              </div>
+
               </li>
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#exp1"
+                  href="#skills"
                 >
-                <span className="ml-2 text-xs">Tech Stack</span>
+                <span className="ml-2 text-xs">Experience</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 "
+                  href="#tools" 
+                >
+                  <span className="ml-2 text-xs">Tech-Stack</span>
                 </a>
               </li>
               <li className="nav-item">

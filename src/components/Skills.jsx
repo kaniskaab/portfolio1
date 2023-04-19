@@ -5,7 +5,7 @@ import content from '../images/content.png'
 export default function Skills() {
   return (
     <div>
-      <div class="">
+      <div id="skills" class="">
   {/* <!-- Header --> */}
     <h1 className="text-white text-3xl font-bold py-4 text-center">What Can I Do? </h1>
 
