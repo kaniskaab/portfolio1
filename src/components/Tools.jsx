@@ -125,7 +125,7 @@ export default function Tools() {
               key={id}
               className=" mt-3 flex flex-col justify-center items-center shadow-white rounded-full "
             >
-                <img src={src} alt='logo' className='rounded-full h-10 w-10'/>
+                <img src={src} alt='logo' className='rounded-full h-12 w-12'/>
                 <div className='text-xs text-white'>{title}</div>
             </div>
             </div>
